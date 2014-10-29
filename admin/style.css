@@ -1,0 +1,30 @@
+#header{color:#fff;}
+#post-new,.pagenavi{padding:0 8% 0 2%;}
+.post-content-text{width:80%;}
+.line{background:none;border:0;border-bottom:#dedede solid 3px;}
+
+#content{padding:0;margin:0;}
+
+#manage-comments p{margin:0;padding:0;}
+#manage-comments h2{padding:0.5em 8% 0.5em 2%;}
+#manage-comments .comment{border-bottom:#ccc dashed 1px;padding:0.5em 8% 0.5em 2%;}
+#manage-comments .hold{background:#FFFad4;}
+#manage-comments .comment-info,
+#manage-comments .comment-info a,
+#manage-comments .comment-manage{color:#999;}
+#manage-comments .pagenavi{padding:1em .5em;}
+
+#manage-posts .manage-posts-dh{padding:1em 8% 1em 2%;}
+#manage-posts .manage-posts-dh a{}
+#manage-posts-by-list{padding:0;}
+#manage-posts-by-list .post{border-top:#ccc dashed 1px;padding:0.5em 8% 0.5em 2%;}
+#manage-posts-by-list .even{background:#FFFad4;}
+#manage-posts-by-list .post .post-title a{color:#333;text-decoration:none;font-weight:normal;}
+#manage-posts-by-list .post .post-info,
+#manage-posts-by-list .post .post-info a,
+#manage-posts-by-list .post .post-manage{color:#999;}
+#manage-posts-by-list .pagenavi{border-top:#ccc dashed 1px;}
+#manage-posts-by-category .category{border-top:#ccc dashed 1px;padding:0.5em 8% 0.5em 2%;}
+#manage-posts-by-tag{padding:0.5em 8% 0.5em 2%;line-height:1.5em;}
+
+#content h3{margin:0.5em 0;padding-top:0.5em;}

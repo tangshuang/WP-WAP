@@ -1,0 +1,13 @@
+<?php
+require_once(dirname(__FILE__).'/wap-core.php');
+if(isset($_GET['p'])){
+	get_wap_template('single');
+}elseif(isset($_GET['page_id'])){
+	get_wap_template('page');
+}elseif(isset($_GET['cat'])){
+	get_wap_template('cat');
+}elseif(isset($_GET['tag'])){
+	get_wap_template('tag');
+}else{
+	get_wap_template('home');
+}

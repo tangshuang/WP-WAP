@@ -1,0 +1,117 @@
+/*************************************************
+*
+* 正常情况下的css，即不执行jquery的时候执行的css
+* 对jquery.mobile的css进行修复的css代码在文件最后
+* 正常情况下，把所有的css写在.c-grade-view之后，如果执行js，<body>的.c-grade-view将被去除
+*
+*************************************************/
+body{margin:0;padding:0;color:#333;font-size:0.9em;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+img{border:0;max-width:100%;height:auto;}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.alignright {float:right; margin:0 0 1em 1em}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img{border:0;}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.wp-caption {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #f3f3f3;
+  padding-top: 4px;
+  margin: 10px 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.wp-caption img {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  -webkit-user-drag: none;
+}
+.wp-caption-dd {
+  font-size: 0.8em;
+  line-height: 17px;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+.wp-caption-text{
+  font-size: 0.8em;
+  margin: 0;
+  padding:5px 0;
+  line-height:1;
+}
+.aligncenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alignleft {
+  float:left;
+  margin:0 1em 1em 0;
+}
+.alignright {
+  float:right; 
+  margin:0 0 1em 1em;
+}
+
+.copyright-text{display: none;}
+
+#header{background:#0C7D7B;padding-left:2%;color:#fff;text-align:center;}
+#header a{color:#fff;text-decoration:none;}
+#header h1{font-size:1.3em;padding-top:0.5em;padding-bottom:0.5em;}
+#nav{padding-bottom:0.5em;}
+
+.list .li,#tag-list,.pagenavi,#article{padding:1em 8% 1em 2%;border-bottom:#ccc dashed 1px;}
+.list .even{background:#fffad4;}
+.list h2{padding:0.5em 0;margin:0;padding-right:8%;padding-left:2%;border-bottom:#ccc dashed 1px;font-size:1.2em;text-align:center;}
+
+#post-list h3{padding:0;margin:0;font-size:1.1em;}
+#post-list .excerpt p{margin:0;padding:.2em;}
+#post-list .excerpt a{text-decoration:none;color:#333;}
+
+#post-list .post-info{color:#999;}
+#post-list .post-info a{color:#999;text-decoration:underline;}
+
+#comment-list .comment{border-bottom:#ccc dashed 1px;padding:0.5em 8% 0.5em 2%;}
+#comment-list .even{background:#FFFad4;}
+#comment-list .comment-info,
+#comment-list .comment-info a{color:#999;}
+#comment-list .comment p{padding:0;margin:0;}
+
+#category-list{width:100%;background:#fff;}
+#category-list ul{border-left:#333 solid 1px;margin-left:.5em;margin-top:.5em;list-style: none;padding:0;padding-left:1em;}
+#category-list ul ul{margin-left:.5em;margin-bottom:.5em;}
+
+#article .article-title{}
+#article .article-title a{color:#333;text-decoration:none;}
+#article .article-info{color:#999;border-bottom:#ccc solid 1px;padding-bottom:1em;margin-bottom:1em;}
+#article .article-info a{color:#999;text-decoration:underline;}
+#article .article-content{border-bottom:#ccc solid 3px;padding-bottom:5px;margin-bottom:5px;}
+#article .comment{padding:.5em;border-bottom:#f1f1f1 dashed 1px;}
+#article .article-comments .current{background:#FFFad4;}
+#article .comment-content p{padding:0;margin:0;}
+#article .comment-info{color:#999;}
+#article .article-reply textarea{width:98%;}
+#article blockquote,
+#article pre{margin:0.5em 1em;}
+#article ul,
+#article ol{
+	padding:.5em 1em;
+}
+
+#footer{padding:3em 8% 2em 2%;background:#FFF791;}
+#footer #search{padding-bottom:2em;}
+
+#fixed-nav{position:fixed;left:0;bottom:0;width:100%;padding:3px 0;background:#0C7D7B;text-align:center;}
+#fixed-nav a{color:#fff;text-decoration:none;}
+
+.copyright-text{display:block;width:1px;height:1px;float:right;overflow:hidden;}
+
+@media screen and (min-width:640px){ 
+	body{width:640px;margin:0 auto;}
+	#fixed-nav{width:640px;left:50%;margin-left:-320px;}
+}
